@@ -13,8 +13,8 @@ end
 
 def assign_rooms(array)
   assignments = Array.new
-  for room in 0...8
-    assignments << "Helllo, #{array[room]}! You'll be assigned to room #{room+1}!"
+  for room in 0...array.length
+    assignments << "Hello, #{array[room]}! You'll be assigned to room #{room+1}!"
   end
   assignments
   
